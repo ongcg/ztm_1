@@ -30,5 +30,46 @@
       <p class="font-roboto font-light text-gray-500 text-center text-lg py-6 px-28">Spend quality time with your family and eat an affordable, nutrition and delicious meal. Not all burgers are fast food.All our burgers are handmade to order for you and your family to enjoy</p>
       <button class="font-oswald uppercase bg-red-500 text-white py-3 px=6">Explore Full Menu</button>
     </div>
+
+    <div id="section-3" class="text-center">
+      <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-10">Our Crazy Burgers</h2>
+      <p class="text-gray-500 font-light text-xl my-10 px-60">
+        Whether you are looking for the classics, our specialties, or just wraps, salads, and fries.
+        We have it all.
+        We always have something that rewards your tastebud.
+      </p>
+    <div class="grid grid-cols-2 px-40 gap-5">
+        <div id="left-item-column">
+          <Item
+           image="crispy-chicken.jpg"
+           title="Crispy Chicken"
+           description="Chicken breast, chilli sources, tomatoes, pickles, coleslaw"
+           price="11.99"
+           />
+          <Item
+           image="baa-baa.jpg"
+           title="Baa-Baa Black Sheep"
+           description="American cheese, tomato relish
+           avocado, juicy lamp patty"
+           price="17.99"
+           />
+        </div>
+        <div id="right-item-column">
+          <item
+            image="ultimate-bacon.jpg"
+            title="Ultimate Bacon"
+            description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
+            price="14.99"
+            />
+          <item
+            image="double-burger.jpg"
+            title="Double Burger"
+            description="2x beef patties, cheddar cheese, mustard, pickles, tomatoes"
+            price="15.99"
+            />
+        </div>
+    </div>
+    </div>
+    </div>
   </div>
 </template>
