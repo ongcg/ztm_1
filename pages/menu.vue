@@ -7,11 +7,12 @@
                 </div>
 
                 <div id="menu-right">
-                    <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
+                    <ul class="grid grid-cols-5 text-lg font-oswald text-white uppercase pt-5">
                     <li>About Us</li>
-                    <li>Our Menu</li>
+                    <NuxtLink to="/menu">Our Menu</NuxtLink>
                     <li>Locations</li>
                     <li>Contacts</li>
+                    <NuxtLink to="/cart">Cart</NuxtLink>
                     </ul>
                 </div>
             </div>

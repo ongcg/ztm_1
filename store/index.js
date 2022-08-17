@@ -1,5 +1,8 @@
 const state = () => ({
-  orders: [],
+  orders: [
+    { name: 'Crispy Chicken', price: 11.99, quantity: 1 },
+    { name: 'Baa-Baa Black Sheep', price: 15.75, quantity: 1 }
+  ],
 });
 
 const mutations = {
