@@ -1,8 +1,5 @@
 const state = () => ({
-  orders: [
-    { name: 'Crispy Chicken', price: 11.99, quantity: 1 },
-    { name: 'Baa-Baa Black Sheep', price: 15.75, quantity: 1 }
-  ],
+  orders: [],
 });
 
 const mutations = {
@@ -22,9 +19,24 @@ const mutations = {
       state.orders[index].quantity++;
     }
   },
+
+  removeItem(state, selectedItem) {
+    const index = state.orders.findIndex(
+      (item) => {
+        return item.name === selectedItem;
+      });
+    state.orders.splice(index, 1);
+  }
 };
+
+const getters = {
+  totalItems(state) {
+    return state.orders.length;
+  }
+}
 
 export default {
   state,
   mutations,
+  getters,
 };
