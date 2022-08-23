@@ -48,7 +48,7 @@
     </div>
     <div
       id="section 1"
-      class="text-center bg-[url('/about.jpg')] pb-70 bg-cover"
+      class="text-center bg-[url('/about.jpg')] pb-60 bg-cover"
     >
       <h1 class="text-6xl uppercase font-oswald text-center pt-20 px-24">
         The burger tastes better when you eat it with family
