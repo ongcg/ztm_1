@@ -75,7 +75,7 @@ export default {
       this.$store.commit('removeItem', name);
     },
     submitOrder() {
-      this.$store.post('/.netlify/functions/email', {
+      this.$axion.post('/.netlify/functions/email', {
         email: document.getElementById('email').value,
         orders: this.$store.state.orders,
       })
