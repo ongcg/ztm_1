@@ -83,7 +83,7 @@ export default {
           alert('Your order has been submitted');
         });
 
-      thus.$axios.post('/.netlify/functions/db', {
+      this.$axios.post('/.netlify/functions/db', {
         email: document.getElementById('email').value,
         orders: this.$store.state.orders,
       })
