@@ -38,12 +38,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
-  ],
-
-  modules: [
-    [
-      '@nuxtjs/firebase',
+    '@nuxtjs/axios',
+    '@nuxtjs/firebase',
       {
         config: {
           apiKey: "AIzaSyA0zXryYDS3CQh1AHIUQ2zyZIptTXNJGeA",
@@ -55,11 +51,10 @@ export default {
           measurementId: "G-JCLKD0G235"
       },
       services: {
-        auth: true
+        firestore: true
       }
     }
-  ]
-],
+  ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
