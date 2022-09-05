@@ -40,15 +40,15 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/firebase',
-      {
-        config: {
-          apiKey: "AIzaSyA0zXryYDS3CQh1AHIUQ2zyZIptTXNJGeA",
-          authDomain: "ztm-2-ea401.firebaseapp.com",
-          projectId: "ztm-2-ea401",
-          storageBucket: "ztm-2-ea401.appspot.com",
-          messagingSenderId: "744734004634",
-          appId: "1:744734004634:web:c9859873ef42d866ee1623",
-          measurementId: "G-JCLKD0G235"
+    {
+      config: {
+        apiKey: "AIzaSyA0zXryYDS3CQh1AHIUQ2zyZIptTXNJGeA",
+        authDomain: "ztm-2-ea401.firebaseapp.com",
+        projectId: "ztm-2-ea401",
+        storageBucket: "ztm-2-ea401.appspot.com",
+        messagingSenderId: "744734004634",
+        appId: "1:744734004634:web:c9859873ef42d866ee1623",
+        measurementId: "G-JCLKD0G235"
       },
       services: {
         firestore: true
